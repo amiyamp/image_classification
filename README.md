@@ -29,7 +29,7 @@ Insights gained during the training process include model accuracy, loss, and va
 After training, the model is evaluated on the test set, yielding an accuracy of approximately 80%. The classification report provides a detailed breakdown of precision, recall, and F1-score for each class.
 
 ## Model Prediction
-A sample image (`serena_williams7.png`) is provided for prediction. The model predicts the class, and the result is printed in the console.
+To make predictions using the trained model, a 'preprocess_single_image function' is provided. This function takes an image path, reads the image, and preprocesses it for input to the model
 
 
 
